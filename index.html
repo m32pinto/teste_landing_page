@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>União técnica PA/AM</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts (Para dar um ar mais moderno) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            overflow-x: hidden; /* Evita rolagem lateral no celular */
+        }
+        
+        /* Estilo para imagens ocuparem a tela toda no mobile */
+        .img-fluid {
+            border-radius: 15px;
+        }
+
+        /* Hero Section (Topo) */
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/capa.png');
+            background-size: cover;
+            background-position: center 25%;
+            height: 100vh; /* Ocupa 100% da altura da tela */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .btn-gigante {
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 50px;
+            text-transform: uppercase;
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+            transition: transform 0.2s;
+        }
+        
+        .btn-gigante:hover {
+            transform: scale(1.05);
+        }
+
+        .section-padding {
+            padding: 80px 0;
+        }
+
+        .bg-destaque {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO SECTION (A primeira impressão) -->
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">União Técnica PA/AM</h1>
+            <p class="lead mb-5 fs-4">Nosso objetivo é promover e facilitar a entrega de informações para o técnico industrial.</p>
+            <a href="#oferta" class="btn btn-primary btn-gigante">Número da chapa: 7890 clique para guardar o número e ver mais informações</a>
+        </div>
+    </header>
+
+    <!-- SEÇÃO DE BENEFÍCIOS (Texto + Ícones) -->
+    <section class="section-padding container">
+        <div class="row text-center g-4">
+            <div class="col-md-4">
+                <div class="p-4">
+                    <h3 class="fw-bold">Processos estruturados.</h3>
+                    <p class="text-muted">Viemos com o objetico de estruturar os processos para melhorar a comunicação com o técnico</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4">
+                    <h3 class="fw-bold">Avanços tecnológicos</h3>
+                    <p class="text-muted">Utilizaremos as últimas tecnologias para reduzir custos, aumentar a capacidade da fiscalização e estar mais próximos do técnico.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-4">
+                    <h3 class="fw-bold">Benefícios</h3>
+                    <p class="text-muted">Proporcionaremos benefícios significativos para o técnico evoluir na área da educação, saúde, e tecnologia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE IMPACTO (Foto Grande + Texto Lado a Lado) -->
+    <section class="section-padding bg-destaque">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <!-- Imagem placeholder - Substitua pela sua -->
+                    <img src="images/capa.png" class="img-fluid w-100 shadow" alt="Produto">
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <h2 class="display-5 fw-bold mb-4">Isso vai mudar a sua forma de ver o conselho regional dos técnicos da 7º região</h2>
+                    <p class="fs-5 text-muted">Nossa palavras chaves para a melhoria são:</p>
+                    <ul class="list-unstyled fs-5 mt-4">
+                        <li class="mb-2">✅ Processos estruturados.</li>
+                        <li class="mb-2">✅ Comunicação.</li>
+                        <li class="mb-2">✅ Tecnologia.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO FINAL / CTA (Chamada para Ação) -->
+    <section id="oferta" class="section-padding text-center bg-dark text-white">
+        <div class="container">
+            <h2 class="display-4 fw-bold mb-4">Pronto para a mudança?</h2>
+            <p class="fs-4 mb-5">Confie em quem esteve junto dos técnicos.</p>
+            <a href="#" class="btn btn-success btn-lg btn-gigante">CLIQUE AQUI PARA ENTRAR EM CONTATO E RECEBER MAIS INFORMAÇÕES</a>
+            <p class="mt-4 small text-white-50">Estaremos contando com você para a mudança em 21 e 22/05/2026</p>
+        </div>
+    </section>
+
+    <!-- RODAPÉ SIMPLES -->
+    <footer class="py-4 text-center text-muted bg-light">
+        <div class="container">
+            <small>&copy; 2026 União Técnica PA/AM. Todos os direitos reservados.</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
